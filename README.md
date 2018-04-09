@@ -1,7 +1,7 @@
 # Inputmap
 
 Gem for selecting geographical coordinates via Google maps.
-![alt text](https://abrilveja.files.wordpress.com/2016/06/jared-leto-caracterizado-de-coringa-em-primeira-foto-oficial-de-esquadrao-suicida-original2.jpeg)
+![alt text](example.gif)
 ## Installation
 
 Add this line to your application's Gemfile:
@@ -29,9 +29,9 @@ config = {
   element_id: "map", #id element map <div id='map' style='height: 300px; width: 100%'></div>
   zoom: 15
 }
-client = Inputmap::Client.new(config)
-# or with default options:
-client = Inputmap::Client.new
+inputmap = Inputmap::Client.new(config)
+
+<%= inputmap.run() %>
 ```
 
 ## Development
