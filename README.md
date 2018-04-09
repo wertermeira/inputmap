@@ -1,9 +1,7 @@
 # Inputmap
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/inputmap`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
-
+Gem for selecting geographical coordinates via Google maps.
+![alt text](https://abrilveja.files.wordpress.com/2016/06/jared-leto-caracterizado-de-coringa-em-primeira-foto-oficial-de-esquadrao-suicida-original2.jpeg)
 ## Installation
 
 Add this line to your application's Gemfile:
@@ -22,7 +20,19 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+# Sample configuration:
+config = {
+  key: 'AIzaSyB70Hu6l9Ekf1hnbPKJy2sCgsxrYFfTTO4, #key google maps
+  input_id:  "input_id", #id element input hidden
+  coordinates: "-11.303403, -41.855775", # coordinites default
+  element_id: "map", #id element map <div id='map' style='height: 300px; width: 100%'></div>
+  zoom: 15
+}
+client = Inputmap::Client.new(config)
+# or with default options:
+client = Inputmap::Client.new
+```
 
 ## Development
 

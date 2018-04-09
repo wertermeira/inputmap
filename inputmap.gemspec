@@ -9,9 +9,9 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Werter Meira"]
   spec.email         = ["wertermeira@hotmail.com"]
 
-  spec.summary       = "test"
-  spec.description   = "test"
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = "Selecting geographical coordinates via Google maps."
+  spec.description   = "Selecting geographical coordinates via Google maps."
+  spec.homepage      = "https://github.com/wertermeira/inputmap"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
