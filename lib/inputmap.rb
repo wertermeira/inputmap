@@ -12,7 +12,7 @@ module Inputmap
       @zoom = config[:zoom] || 15
     end
 
-    def run
+    def render
       "<script src='https://maps.googleapis.com/maps/api/js?key=#{@key}'></script>
        <script type='text/javascript'>
             var map;
