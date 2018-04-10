@@ -25,7 +25,7 @@ Or install it yourself as:
 config = {
   key: 'AIzaSyB70Hu6l9Ekf1hnbPKJy2sCgsxrYFfTTO4, #key google maps
   input_id:  "input_id", #id element input hidden
-  coordinates: "-11.303403, -41.855775", # coordinites default
+  coordinates: "-11.303403, -41.855775", # coordinates default
   element_id: "map", #id element map <div id='map' style='height: 300px; width: 100%'></div>
   zoom: 15
 }
@@ -42,7 +42,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/inputmap. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/wertermeira/inputmap. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 ## License
 
