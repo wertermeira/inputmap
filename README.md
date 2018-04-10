@@ -31,7 +31,7 @@ config = {
 }
 inputmap = Inputmap::Client.new(config)
 
-<%= inputmap.render() %>
+<%= inputmap.render %>
 ```
 
 ## Development
