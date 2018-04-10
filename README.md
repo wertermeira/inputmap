@@ -23,7 +23,7 @@ Or install it yourself as:
 ```ruby
 # Sample configuration:
 config = {
-  key: 'AIzaSyB70Hu6l9Ekf1hnbPKJy2sCgsxrYFfTTO4, #key google maps
+  key: 'AIzaSyB70Hu6l9Ekf1hnbPKJy2sCgsxrYFfTTO4', #key google maps
   input_id:  "input_id", #id element input hidden
   coordinates: "-11.303403, -41.855775", # coordinates default
   element_id: "map", #id element map <div id='map' style='height: 300px; width: 100%'></div>
